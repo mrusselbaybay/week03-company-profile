@@ -102,8 +102,8 @@ class CompanyController extends Controller
     {
         $companyInfo = [
             'address' => '123 Innovation Avenue, Ortigas Center, Pasig City, Metro Manila, Philippines',
-            'email' => 'hello@yourcompany.com',
-            'phone' => '+63 917 123 4567',
+            'email' => 'novatech@gmail.com',
+            'phone' => '+63 555 364 117',
             'social' => [
                 'facebook' => 'https://facebook.com/yourcompany',
                 'twitter' => 'https://twitter.com/yourcompany',

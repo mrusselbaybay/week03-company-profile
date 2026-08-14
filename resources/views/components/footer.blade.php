@@ -45,8 +45,8 @@
             <h3 class="text-sm font-semibold text-white uppercase tracking-wide">Contact</h3>
             <ul class="mt-4 space-y-3 text-sm text-slate-400">
                 <li>123 Innovation Avenue, Ortigas Center, Pasig City, Metro Manila, Philippines</li>
-                <li><a href="mailto:hello@yourcompany.com" class="hover:text-white transition">hello@yourcompany.com</a></li>
-                <li><a href="tel:+639171234567" class="hover:text-white transition">+63 917 123 4567</a></li>
+                <li><a href="mailto:novatech@gmail.com" class="hover:text-white transition">novatech@gmail.com</a></li>
+                <li><a href="tel:+639171234567" class="hover:text-white transition">+63 555 364 117</a></li>
             </ul>
         </div>
     </div>

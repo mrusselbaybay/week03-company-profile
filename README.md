@@ -39,7 +39,7 @@ Basically the flow of the whole architecture process is:
 Browser → Route → Controller → Blade View → Response to Browser
 
 D. Laravel Routing 
-Routing?
+Routing
 - Routing is like a support that directs website visitors to the right page based on the URL they type in their browser.
 
 Named Routes
@@ -50,6 +50,39 @@ GET Request
 
 ROUTE definitions 
 - Route definitions are the lines of code that tell Laravel what to do when someone visits a specific URL, like "when someone goes to /services, show them the services page."
+
+E. Controllers
+Purpose of Controllers
+- Controllers are the middlemen that handle user requests, process data, and decide which view to display, keeping your code organized by moving logic out of routes and into dedicated classes.
+
+Benefits of Controllers
+- Controllers keep your code clean and organized by grouping related logic together, making it easier to maintain and reuse across your application.
+
+Controller Methods
+- Controller methods are like specific tasks that handle different pages or actions, such as the home() method showing the homepage and the services() method showing the services page.
+
+F. Blade Templating Engine
+Blade
+- Blade is Laravel's powerful templating engine that allows you to write HTML with embedded PHP code using simple, clean syntax, making your views more readable and maintainable.
+
+Blade Layouts
+- Blade layouts are master templates that define the overall structure of your website, such as the header, navigation, and footer, so you don't have to repeat the same HTML code on every page.
+
+Blade Components
+- Blade components are reusable pieces of HTML that you can use throughout your application, like a navigation bar or footer, making your code cleaner and easier to update.
+
+@extends
+- @extends tells Laravel that your current page should inherit the structure and design from a master layout file, so you only need to define the content that changes on each page.
+
+@section
+- @section defines a specific area of content within a layout that you want to fill with your own HTML, like the main content area of a page.
+
+@yield
+- @yield acts as a placeholder in your master layout that marks where content from child pages will be inserted, like an empty container waiting to be filled.
+
+@include
+- @include allows you to insert a reusable Blade file into another view, like adding a navigation bar or footer to your page without copying the code every time.
+
 
 
 
